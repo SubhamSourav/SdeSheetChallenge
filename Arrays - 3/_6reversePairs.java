@@ -19,11 +19,9 @@ public class _6reversePairs {
 
         while (i <= mid && j <= high) {
             if (arr.get(i) <= arr.get(j)) {
-                temp.add(arr.get(i));
-                i++;
+                temp.add(arr.get(i++));
             } else {
-                temp.add(arr.get(j));
-                j++;
+                temp.add(arr.get(j++));
             }
         }
 
@@ -33,7 +31,7 @@ public class _6reversePairs {
             temp.add(arr.get(j++));
 
         for (int k = low; k <= high; k++) {
-            arr.set(k, temp.get(i - low));
+            arr.set(k, temp.get(k - low));
         }
 
         return inv;
@@ -57,5 +55,6 @@ public class _6reversePairs {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(6, 4, 8, 2, 1, 3));
         System.out.println("The Total Reverse Pairs are " + reversePairs(arr));
+        System.out.println(arr);
     }
 }
