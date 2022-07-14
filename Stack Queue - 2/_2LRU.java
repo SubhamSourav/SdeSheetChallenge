@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class LRUCache {
+public class _2LRU {
     Node head = new Node(0, 0), tail = new Node(0, 0);
-    Map<Integer, Node> map = new HashMap();
+    Map<Integer, Node> map = new HashMap<>();
     int capacity;
 
-    LRUCache(int c) {
+    _2LRU(int c) {
         capacity = c;
         head.next = tail;
         tail.prev = head;

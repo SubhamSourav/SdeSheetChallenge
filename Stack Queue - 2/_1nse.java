@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class _1nse {
     static ArrayList<Integer> nextSmallerElement(ArrayList<Integer> arr, int n) {
         Stack<Integer> s = new Stack<>();
         ArrayList<Integer> ans = new ArrayList<>();

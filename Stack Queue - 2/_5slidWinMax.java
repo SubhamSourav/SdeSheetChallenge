@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Solution {
+public class _5slidWinMax {
     public static ArrayList<Integer> getMaximumOfSubarrays(ArrayList<Integer> nums, int k) {
         ArrayList<Integer> ans = new ArrayList<>();
         Deque<Integer> q = new ArrayDeque<>();
