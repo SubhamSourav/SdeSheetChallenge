@@ -1,4 +1,4 @@
-public class Solution {
+public class _4rotatedArr {
 
     static int pivot(int[] arr) {
         int l = 0, h = arr.length - 1;

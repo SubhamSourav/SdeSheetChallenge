@@ -1,4 +1,4 @@
-public class Solution {
+public class _11countAndSay {
     public static String writeAsYouSpeak(int n) {
         if (n == 1)
             return "1";

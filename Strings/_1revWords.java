@@ -1,5 +1,3 @@
-import java.lang.*;
-
 public class _1revWords {
     public static String reverseString(String s) {
         int n = s.length();

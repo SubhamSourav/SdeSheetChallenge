@@ -1,4 +1,4 @@
-public class Solution {
+public class _10Anagram {
     public static boolean areAnagram(String str1, String str2) {
         if (str1.length() != str2.length())
             return false;

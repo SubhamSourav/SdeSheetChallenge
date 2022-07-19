@@ -1,4 +1,4 @@
-public class Solution {
+public class _5med2SortArr {
     public static double median(int[] a, int[] b) {
         if (a.length > b.length)
             return median(b, a);

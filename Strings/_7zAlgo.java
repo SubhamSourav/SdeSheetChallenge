@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class Solution {
+public class _7zAlgo {
 
     static int[] getZ(StringBuilder sb) {
         int n = sb.length(), left = 0, right = 0;

@@ -1,5 +1,5 @@
 
-public class Solution {
+public class _8KMP {
 
     public static int minCharsforPalindrome(String str) {
         StringBuilder sb = new StringBuilder();

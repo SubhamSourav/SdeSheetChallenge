@@ -1,4 +1,4 @@
-public class Solution {
+public class _9minCharForPal {
     public static boolean findPattern(String pattern, String text) {
         int n = text.length(), m = pattern.length();
 
