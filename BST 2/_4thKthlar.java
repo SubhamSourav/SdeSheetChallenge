@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 class TreeNode<T> {
     public T data;
     public TreeNode<T> left;

@@ -1,4 +1,3 @@
-
 class BinaryTreeNode<Integer> {
     int data;
     BinaryTreeNode<Integer> left;
